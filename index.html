@@ -1,0 +1,312 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>LKsin - Home</title><meta name="author" content="LKsin"><meta name="copyright" content="LKsin"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><meta name="description" content="Do what you like to do">
+<meta property="og:type" content="website">
+<meta property="og:title" content="LKsin">
+<meta property="og:url" content="https://lksin.gitee.io/index.html">
+<meta property="og:site_name" content="LKsin">
+<meta property="og:description" content="Do what you like to do">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://lksin.gitee.io/null">
+<meta property="article:author" content="LKsin">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://lksin.gitee.io/null"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://lksin.gitee.io/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="preconnect" href="//zz.bdstatic.com"/><meta name="baidu-site-verification" content="erXyAsX0yLmf6LHm"/><meta name="yandex-verification" content="{&quot;theme_color&quot;:{&quot;enable&quot;:true,&quot;main&quot;:&quot;#49B1F5&quot;,&quot;paginator&quot;:&quot;#00c4b6&quot;,&quot;button_hover&quot;:&quot;#FF7242&quot;,&quot;text_selection&quot;:&quot;#00c4b6&quot;,&quot;link_color&quot;:&quot;#99a9bf&quot;,&quot;meta_color&quot;:&quot;#858585&quot;,&quot;hr_color&quot;:&quot;#A4D8FA&quot;,&quot;code_foreground&quot;:&quot;#F47466&quot;,&quot;code_background&quot;:&quot;rgba(27, 31, 35, .05)&quot;,&quot;toc_color&quot;:&quot;#00c4b6&quot;,&quot;blockquote_padding_color&quot;:&quot;#49b1f5&quot;,&quot;blockquote_background_color&quot;:&quot;#49b1f5&quot;}}"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.css"><script>var GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  ClickShowText: undefined,
+  lightbox: 'fancybox',
+  Snackbar: {"chs_to_cht":"你已切换为繁体","cht_to_chs":"你已切换为简体","day_to_night":"你已切换为深色模式","night_to_day":"你已切换为浅色模式","bgLight":"#49b1f5","bgDark":"#2d3035","position":"bottom-left"},
+  source: {
+    jQuery: 'https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js',
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/css/justifiedGallery.min.css'
+    },
+    fancybox: {
+      js: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isanchor: false
+};
+
+var saveToLocal = {
+  set: function setWithExpiry(key, value, ttl) {
+    const now = new Date()
+    const expiryDay = ttl * 86400000
+    const item = {
+      value: value,
+      expiry: now.getTime() + expiryDay,
+    }
+    localStorage.setItem(key, JSON.stringify(item))
+  },
+
+  get: function getWithExpiry(key) {
+    const itemStr = localStorage.getItem(key)
+
+    if (!itemStr) {
+      return undefined
+    }
+    const item = JSON.parse(itemStr)
+    const now = new Date()
+
+    if (now.getTime() > item.expiry) {
+      localStorage.removeItem(key)
+      return undefined
+    }
+    return item.value
+  }
+}
+
+// https://stackoverflow.com/questions/16839698/jquery-getscript-alternative-in-native-javascript
+const getScript = url => new Promise((resolve, reject) => {
+  const script = document.createElement('script')
+  script.src = url
+  script.async = true
+  script.onerror = reject
+  script.onload = script.onreadystatechange = function() {
+    const loadState = this.readyState
+    if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+    script.onload = script.onreadystatechange = null
+    resolve()
+  }
+  document.head.appendChild(script)
+})</script><script id="config_change">var GLOBAL_CONFIG_SITE = { 
+  isPost: false,
+  isHome: true,
+  isHighlightShrink: false,
+  isToc: false,
+  postUpdate: '2021-03-13 23:39:01'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(function () {  window.activateDarkMode = function () {
+    document.documentElement.setAttribute('data-theme', 'dark')
+    if (document.querySelector('meta[name="theme-color"]') !== null) {
+      document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+    }
+  }
+  window.activateLightMode = function () {
+    document.documentElement.setAttribute('data-theme', 'light')
+   if (document.querySelector('meta[name="theme-color"]') !== null) {
+      document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+    }
+  }
+  const autoChangeMode = 'false'
+  const t = saveToLocal.get('theme')
+  if (autoChangeMode === '1') {
+    const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
+    const isLightMode = window.matchMedia('(prefers-color-scheme: light)').matches
+    const isNotSpecified = window.matchMedia('(prefers-color-scheme: no-preference)').matches
+    const hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+    if (t === undefined) {
+      if (isLightMode) activateLightMode()
+      else if (isDarkMode) activateDarkMode()
+      else if (isNotSpecified || hasNoSupport) {
+        const now = new Date()
+        const hour = now.getHours()
+        const isNight = hour <= 6 || hour >= 18
+        isNight ? activateDarkMode() : activateLightMode()
+      }
+      window.matchMedia('(prefers-color-scheme: dark)').addListener(function (e) {
+        if (saveToLocal.get('theme') === undefined) {
+          e.matches ? activateDarkMode() : activateLightMode()
+        }
+      })
+    } else if (t === 'light') activateLightMode()
+    else activateDarkMode()
+  } else if (autoChangeMode === '2') {
+    const now = new Date()
+    const hour = now.getHours()
+    const isNight = hour <= 6 || hour >= 18
+    if (t === undefined) isNight ? activateDarkMode() : activateLightMode()
+    else if (t === 'light') activateLightMode()
+    else activateDarkMode()
+  } else {
+    if (t === 'dark') activateDarkMode()
+    else if (t === 'light') activateLightMode()
+  }const asideStatus = saveToLocal.get('aside-status')
+if (asideStatus !== undefined) {
+   if (asideStatus === 'hide') {
+     document.documentElement.classList.add('hide-aside')
+   } else {
+     document.documentElement.classList.remove('hide-aside')
+   }
+}})()</script><link rel="stylesheet" href="/css/background.css"><meta name="generator" content="Hexo 5.2.0"></head><body><div id="loading-box"><div class="loading-left-bg"></div><div class="loading-right-bg"></div><div class="spinner-box"><div class="configure-border-1"><div class="configure-core"></div></div><div class="configure-border-2"><div class="configure-core"></div></div><div class="loading-word">加载中...</div></div></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="author-avatar"><img class="avatar-img" src="/null" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data"><div class="data-item is-center"><div class="data-item-link"><a href="/archives/"><div class="headline">文章</div><div class="length-num">7</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/tags/"><div class="headline">标签</div><div class="length-num">9</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/categories/"><div class="headline">分类</div><div class="length-num">3</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友情链接</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fa fa-heartbeat"></i><span> 实验室</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/2048/"><i class="fa-fw fas fa-images"></i><span> 2048</span></a></li><li><a class="site-page" href="/ypkshua/"><i class="fa-fw fas fa-music"></i><span> 音频可视化</span></a></li></ul></div></div></div></div><div id="body-wrap"><header class="full_page" id="page-header" style="background-image: url(https://lksin.gitee.io/image/blog_index.jpg)"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">LKsin</a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友情链接</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fa fa-heartbeat"></i><span> 实验室</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/2048/"><i class="fa-fw fas fa-images"></i><span> 2048</span></a></li><li><a class="site-page" href="/ypkshua/"><i class="fa-fw fas fa-music"></i><span> 音频可视化</span></a></li></ul></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="site-info"><h1 id="site-title">LKsin</h1><div id="site-subtitle"><span id="subtitle"></span></div><div id="site_social_icons"><a class="social-icon" href="https://github.com/lksin" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="/2517871772@qq.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a></div></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="post_cover left_radius"><a href="/2021/02/11/cywz/" title="白嫖网站推荐">     <img class="post_bg" src="https://lksin.gitee.io/image/T7Mu8Aod3egmC4Q.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="白嫖网站推荐"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/02/11/cywz/" title="白嫖网站推荐">白嫖网站推荐</a><div class="article-meta-wrap"><span class="article-meta"><i class="fas fa-thumbtack article-meta__icon sticky"></i><span class="sticky">置顶</span><span class="article-meta__separator">|</span></span><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2021-02-11T04:20:00.000Z" title="发表于 2021-02-11 12:20:00">2021-02-11</time></span><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox article-meta__icon"></i><a class="article-meta__categories" href="/categories/%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB/">资源分享</a></span><span class="article-meta tags"><span class="article-meta__separator">|</span><i class="fas fa-tag article-meta__icon"></i><a class="article-meta__tags" href="/tags/Windows/">Windows</a><span class="article-meta__link">•</span><a class="article-meta__tags" href="/tags/Mac/">Mac</a></span></div><div class="content">这里写个网站集合吧，想找每个栏目可以通过右侧的目录找手机通过右下角的中间的蓝色按钮打开目录电脑摁Ctrl+F搜索，移动端用浏览器自带的“在页面内查找”进行搜索。
+注意，提供的网站内容绝大部分（99%）为免费，请勿相信网站内的任何广告。
+一：电影，电视剧，番剧类其实凡是网页上能放的视频90%以上都可以下载，未提供下载选项的视频可以通过抓包解决。可以通过浏览器扩展来实现一键下载。这里提供一个扩展（PC端）。如果此扩展显示许多.ts视频格式，极有可能是.m3u8格式。从浏览器控制台（F12）找到.m3u8文件地址，通过ffmpeg下载就行了。当然，很多人不会使用以上工具，所以以下已经进行对提供下载服务的影视网站进行单独分类。
+
+
+另外，提供下载服务的影视网站均提供.torrent，磁力链，ed2k电驴等格式。用迅雷下载就行了。优先推荐聚合搜索，因为会聚合许多片源，防止失效。
+
+
+
+同时提供在线观看与下载
+ 电影、电视剧类
+
+CCTV （凡是CCTV播出的都能观看）
+电影狗（聚合搜索） （注，搜索片源后带有云图标的为下载片源）
+茶杯狐（聚合搜索）
+BT世界
+MaGeDN
+下片片
+看看屋（广告较 ...</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/2021/01/27/ncov2019/" title="COVID 2019仪表盘">     <img class="post_bg" src="https://lksin.gitee.io/image/ncov.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="COVID 2019仪表盘"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/01/27/ncov2019/" title="COVID 2019仪表盘">COVID 2019仪表盘</a><div class="article-meta-wrap"><span class="article-meta"><i class="fas fa-thumbtack article-meta__icon sticky"></i><span class="sticky">置顶</span><span class="article-meta__separator">|</span></span><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2021-01-26T16:00:00.000Z" title="发表于 2021-01-27 00:00:00">2021-01-27</time></span><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox article-meta__icon"></i><a class="article-meta__categories" href="/categories/COVID/">COVID</a></span><span class="article-meta tags"><span class="article-meta__separator">|</span><i class="fas fa-tag article-meta__icon"></i><a class="article-meta__tags" href="/tags/COVID/">COVID</a></span></div><div class="content">2021/1/27日，全球新型冠状病毒感染者已经超过100,000,000人！
+
+ 
+
+
+调用地图方式：
+&lt;iframe src=&quot;https://www.lovestu.com/api/project/cnmapyinqing/obj.php&quot; height=&quot;500&quot; frameborder=&quot;no&quot; border=&quot;0&quot; width=&quot;100%&quot;&gt; &lt;/iframe&gt;//参数：maph:地图高度，默认400，大页面可以适当调大参数
+
+
+当然还有Johns Hopkins大学公布的即时数据，也可以进行iframe嵌套，由于网络原因，连接时间可能较长,此处不嵌套，请自行尝试。
+
+点击前往ArcGIS
+
+
+
+
+调用地图方式：
+&lt;iframe frameborder=&quot;0&quot; src=&quot;https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd402994234 ...</div></div></div><div class="recent-post-item"><div class="post_cover left_radius"><a href="/2021/01/01/adobe/" title="Adobe 2021 全套已破解软件集合(Win+Mac)">     <img class="post_bg" src="https://lksin.gitee.io/image/blog/adobe2021.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Adobe 2021 全套已破解软件集合(Win+Mac)"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/01/01/adobe/" title="Adobe 2021 全套已破解软件集合(Win+Mac)">Adobe 2021 全套已破解软件集合(Win+Mac)</a><div class="article-meta-wrap"><span class="article-meta"><i class="fas fa-thumbtack article-meta__icon sticky"></i><span class="sticky">置顶</span><span class="article-meta__separator">|</span></span><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2020-12-31T16:00:00.000Z" title="发表于 2021-01-01 00:00:00">2021-01-01</time></span><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox article-meta__icon"></i><a class="article-meta__categories" href="/categories/%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB/">资源分享</a></span><span class="article-meta tags"><span class="article-meta__separator">|</span><i class="fas fa-tag article-meta__icon"></i><a class="article-meta__tags" href="/tags/Windows/">Windows</a><span class="article-meta__link">•</span><a class="article-meta__tags" href="/tags/Adobe/">Adobe</a><span class="article-meta__link">•</span><a class="article-meta__tags" href="/tags/Mac/">Mac</a></span></div><div class="content">Adobe 2021软件集合
+2021年伊始，Adobe也是更新了Adobe2021全家桶（其实去年10月份就更新了）。下面贴出全套破解版本的链接。
+2021全家桶直装版来源于微博博主vposy的破解。
+一：下载前注意1：系统需求：
+64位 Windows 10 最新版本（1809以上）。确保系统补丁已打全，VC运行库齐全、最新。不支持 Win7x64或旧版Win10x64。
+2：硬件需求：
+Adobe 2021 必须要最新的硬件支持。CPU核心数建议8核或以上。Intel 第7代或更新款的CPU或AMD同等产品。内存16G起步，若要同时使用多个程序，建议配置32G或以上。需要最低GTX1060/RTX2060/30系或A卡最新架构显卡，否则无法正确运行需要GPU加速的功能组件。新版每次更新的最新版本均需要更新最新显卡驱动以支援，否则会有各种BUG。配置高性能硬盘，保持足够的剩余空间。建议三星或Intel最新的NVME硬盘。官方建议至少双固态存储，同时满足软件和媒体的需求。建议系统盘剩余容量在50G以上。若要同时使用多个程序，建议系统盘剩余容量在100G以上。若要处理超大文件，建议系统 ...</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/2021/02/02/ffmpeg/" title=".m3u8解密神器 ffmpeg">     <img class="post_bg" src="https://www.todoespacoonline.com/w/wp-content/uploads/2015/04/ffmpeg-logo.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt=".m3u8解密神器 ffmpeg"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/02/02/ffmpeg/" title=".m3u8解密神器 ffmpeg">.m3u8解密神器 ffmpeg</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2021-02-01T21:10:13.000Z" title="发表于 2021-02-02 05:10:13">2021-02-02</time></span><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox article-meta__icon"></i><a class="article-meta__categories" href="/categories/%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB/">资源分享</a></span><span class="article-meta tags"><span class="article-meta__separator">|</span><i class="fas fa-tag article-meta__icon"></i><a class="article-meta__tags" href="/tags/Windows/">Windows</a><span class="article-meta__link">•</span><a class="article-meta__tags" href="/tags/Mac/">Mac</a><span class="article-meta__link">•</span><a class="article-meta__tags" href="/tags/m3u8/">.m3u8</a><span class="article-meta__link">•</span><a class="article-meta__tags" href="/tags/Linux/">Linux</a></span></div><div class="content">一.功能支持Windows，Linux和Mac！
+如要使用以下示范的命令，所有的操作都将要转换的文件放在与ffmpeg相同的目录中！当然你也可以指定文件目录
+
+
+
+ffmpeg可以支持音视频格式转换，支持任何支持的格式和协议作为输入，且多线程转换。
+ffmpeg -i input.mp4 output.avi&#x2F;&#x2F;将.mp4格式转为.avi格式ffmpeg -i XXX.wav -ar 44100 XXX.mp3&#x2F;&#x2F;将.wav格式转换为44100HZ的采样率的.mp3格式
+
+简单的音视频剪辑参数介绍:
+&quot;-ss&quot;，time offset，起始时间&#x2F;&#x2F;-ss 1:23.233，表示设定从1分23秒233毫秒开始 -ss 2，从第二秒开始&quot;-t&quot;，duration，持续时间&#x2F;&#x2F;用法同上，从起始时间计时X秒后停止&quot;-to&quot;，stop，截止时间&#x2F;&#x2F;用法同上,至X秒结束
+实例：
+1.ffmpeg -ss 0:23.300 -i .\inpu ...</div></div></div><div class="recent-post-item"><div class="post_cover left_radius"><a href="/2021/01/30/NtrQQ/" title="Ntr QQ">     <img class="post_bg" src="https://lksin.gitee.io/image/NtrQQ.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Ntr QQ"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/01/30/NtrQQ/" title="Ntr QQ">Ntr QQ</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2021-01-30T05:00:00.000Z" title="发表于 2021-01-30 13:00:00">2021-01-30</time></span><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox article-meta__icon"></i><a class="article-meta__categories" href="/categories/%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB/">资源分享</a></span><span class="article-meta tags"><span class="article-meta__separator">|</span><i class="fas fa-tag article-meta__icon"></i><a class="article-meta__tags" href="/tags/QQ/">QQ</a><span class="article-meta__link">•</span><a class="article-meta__tags" href="/tags/Windows/">Windows</a></span></div><div class="content">NtrQQNtrQQ是一款为QQ/TIM PC版打造的一款集显IP、去广告、功能增强等功能于一体的辅助插件，使用NtrQQ可以让你的PCQQ/TIM更实用、更好用。
+主要功能：消息防撤回、显示对方IP、点亮全部勋章墙进行1.2xQQ等级加速、享受绿钻特权（在群内分享歌曲）、SVIP本地点亮、UI简洁化等。
+
+本软件是开发者业余时间为了研究技术兴趣制作的免费软件，由于开发者平时较长时间都是在学校度过，佛系更新，请勿催更请勿骚扰。
+欢迎进入社区（iya.app）以及电报群，与其他志同道合的朋友交流使用心得。
+
+许可
+下述 本软件 为 NtrQQ 插件的略称
+本软件的开发、制作和分享仅为了学习和研究 QQPC 版软件内含的设计思想和原理，因兴趣而开发，您需要保证您的使用是为了学习和交流、且不会用于商业用途。
+本软件是免费软件，使用软件过程中出现的问题欢迎咨询，但因使用本软件产生的一切后果由您自行承担，开发者不会对本软件承担任何责任。
+本软件内的 IP 数据来源全部由网络提供，不会采集您的个人信息，其中高级探测功能为本软件论坛会员专用功能，不对外开放。
+由于本软件的特殊性质，某些杀毒软件会干扰 ...</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/2021/01/28/bandicam/" title="Bandicam绿色版下载">     <img class="post_bg" src="https://tse4-mm.cn.bing.net/th/id/OIP.i3dfu-0oABdXQSKKSiiQtAHaHa?pid=Api&amp;rs=1" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Bandicam绿色版下载"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/01/28/bandicam/" title="Bandicam绿色版下载">Bandicam绿色版下载</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2021-01-28T02:00:00.000Z" title="发表于 2021-01-28 10:00:00">2021-01-28</time></span><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox article-meta__icon"></i><a class="article-meta__categories" href="/categories/%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB/">资源分享</a></span><span class="article-meta tags"><span class="article-meta__separator">|</span><i class="fas fa-tag article-meta__icon"></i><a class="article-meta__tags" href="/tags/Windows/">Windows</a><span class="article-meta__link">•</span><a class="article-meta__tags" href="/tags/%E5%B1%8F%E5%B9%95%E5%BD%95%E5%88%B6/">屏幕录制</a></span></div><div class="content">一：为什么屏幕录制选择Bandicam：Bandicam，游戏录制神器，视频录制利器，高清频录制专家，号称世界三大视频录制神器之一！Bandicam是一款由韩国开发的高清游戏及视频录制的电脑工具。它录制的视频文件不仅体积小，而且画质相当清晰，支持H.264预制高清，以较高的压缩率可录制超过分辨率高达2560×1600高画质视频（1080p全高清视频），录制的同时还可以添加个性化 LOGO到视频中，Bandicam支持bmp、png 、jpeg等格式截图。就是有点小贵，￥264永久。
+
+专业高清录屏软件Bandicam现已更新至 4.x，4.0版本界面更好看，功能更多
+
+Bandicam游戏机可以记录程序/ OpenGL和DirectX Fraps（Fraps Alternative，Better thanFraps®）
+
+您可以在不停机的情况下录制超过24小时（全自动录音功能可以使用）
+
+您可以将录制的文件上传到YouTube而不进行转换（可以制作720p / 1080p全高清视频）
+
+录制的文件大小远小于其他软件。
+
+您可以录制高达3840 x 2160像素分辨率的4K超高清视频
+
+ ...</div></div></div><div class="recent-post-item"><div class="post_cover left_radius"><a href="/2020/01/01/hello-world/" title="Hello World">     <img class="post_bg" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Hello World"></a></div><div class="recent-post-info"><a class="article-title" href="/2020/01/01/hello-world/" title="Hello World">Hello World</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2020-01-01T02:00:00.000Z" title="发表于 2020-01-01 10:00:00">2020-01-01</time></span><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox article-meta__icon"></i><a class="article-meta__categories" href="/categories/Hexo/">Hexo</a></span><span class="article-meta tags"><span class="article-meta__separator">|</span><i class="fas fa-tag article-meta__icon"></i><a class="article-meta__tags" href="/tags/Hexo/">Hexo</a></span></div><div class="content">hexo-博客的第一生产力Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
+Quick StartCreate a new post$ hexo new &quot;My New Post&quot;
+
+More info: Writing
+Run server$ hexo server
+
+More info: Server
+Generate static files$ hexo generate
+
+More info: Generating
+Deploy to remote sites$ hexo deploy
+
+More info: Deployment
+</div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span></div></nav></div><div class="aside_content" id="aside_content"><div class="card-widget card-info"><div class="card-content"><div class="card-info-avatar is-center"><img class="avatar-img" src="/null" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/><div class="author-info__name">LKsin</div><div class="author-info__description">Do what you like to do</div></div><div class="card-info-data"><div class="card-info-data-item is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">7</div></a></div><div class="card-info-data-item is-center"><a href="/tags/"><div class="headline">标签</div><div class="length-num">9</div></a></div><div class="card-info-data-item is-center"><a href="/categories/"><div class="headline">分类</div><div class="length-num">3</div></a></div></div><a class="button--animated" id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/lksin"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/lksin" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="/2517871772@qq.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a></div></div></div><div class="card-widget card-announcement"><div class="card-content"><div class="item-headline"><i class="fas fa-bullhorn card-announcement-animation"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="card-content"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2021/02/11/cywz/" title="白嫖网站推荐"><img src="https://lksin.gitee.io/image/T7Mu8Aod3egmC4Q.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="白嫖网站推荐"/></a><div class="content"><a class="title" href="/2021/02/11/cywz/" title="白嫖网站推荐">白嫖网站推荐</a><time datetime="2021-02-11T04:20:00.000Z" title="发表于 2021-02-11 12:20:00">2021-02-11</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2021/02/02/ffmpeg/" title=".m3u8解密神器 ffmpeg"><img src="https://www.todoespacoonline.com/w/wp-content/uploads/2015/04/ffmpeg-logo.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt=".m3u8解密神器 ffmpeg"/></a><div class="content"><a class="title" href="/2021/02/02/ffmpeg/" title=".m3u8解密神器 ffmpeg">.m3u8解密神器 ffmpeg</a><time datetime="2021-02-01T21:10:13.000Z" title="发表于 2021-02-02 05:10:13">2021-02-02</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2021/01/30/NtrQQ/" title="Ntr QQ"><img src="https://lksin.gitee.io/image/NtrQQ.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Ntr QQ"/></a><div class="content"><a class="title" href="/2021/01/30/NtrQQ/" title="Ntr QQ">Ntr QQ</a><time datetime="2021-01-30T05:00:00.000Z" title="发表于 2021-01-30 13:00:00">2021-01-30</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2021/01/28/bandicam/" title="Bandicam绿色版下载"><img src="https://tse4-mm.cn.bing.net/th/id/OIP.i3dfu-0oABdXQSKKSiiQtAHaHa?pid=Api&amp;rs=1" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Bandicam绿色版下载"/></a><div class="content"><a class="title" href="/2021/01/28/bandicam/" title="Bandicam绿色版下载">Bandicam绿色版下载</a><time datetime="2021-01-28T02:00:00.000Z" title="发表于 2021-01-28 10:00:00">2021-01-28</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2021/01/27/ncov2019/" title="COVID 2019仪表盘"><img src="https://lksin.gitee.io/image/ncov.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="COVID 2019仪表盘"/></a><div class="content"><a class="title" href="/2021/01/27/ncov2019/" title="COVID 2019仪表盘">COVID 2019仪表盘</a><time datetime="2021-01-26T16:00:00.000Z" title="发表于 2021-01-27 00:00:00">2021-01-27</time></div></div></div></div></div><div class="card-widget card-categories"><div class="card-content"><div class="item-headline"><i class="fas fa-folder-open"></i><span>分类</span></div><ul class="card-category-list" id="aside-cat-list">
+            <li class="card-category-list-item "><a class="card-category-list-link" href="/categories/COVID/"><span class="card-category-list-name">COVID</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Hexo/"><span class="card-category-list-name">Hexo</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB/"><span class="card-category-list-name">资源分享</span><span class="card-category-list-count">5</span></a></li>
+            
+            </ul></div></div><div class="card-widget card-tags"><div class="card-content"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/tags/m3u8/" style="font-size: 1.1em; color: #999">.m3u8</a> <a href="/tags/Adobe/" style="font-size: 1.1em; color: #999">Adobe</a> <a href="/tags/COVID/" style="font-size: 1.1em; color: #999">COVID</a> <a href="/tags/Hexo/" style="font-size: 1.1em; color: #999">Hexo</a> <a href="/tags/Linux/" style="font-size: 1.1em; color: #999">Linux</a> <a href="/tags/Mac/" style="font-size: 1.3em; color: #99a1ac">Mac</a> <a href="/tags/QQ/" style="font-size: 1.1em; color: #999">QQ</a> <a href="/tags/Windows/" style="font-size: 1.5em; color: #99a9bf">Windows</a> <a href="/tags/%E5%B1%8F%E5%B9%95%E5%BD%95%E5%88%B6/" style="font-size: 1.1em; color: #999">屏幕录制</a></div></div></div><div class="card-widget card-archives"><div class="card-content"><div class="item-headline"><i class="fas fa-archive"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2021/02/"><span class="card-archive-list-date">二月 2021</span><span class="card-archive-list-count">2</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2021/01/"><span class="card-archive-list-date">一月 2021</span><span class="card-archive-list-count">4</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2020/01/"><span class="card-archive-list-date">一月 2020</span><span class="card-archive-list-count">1</span></a></li></ul></div></div><div class="card-widget card-webinfo"><div class="card-content"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">7</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"></div></div><div class="webinfo-item"><div class="item-name">本站总访问量 :</div><div class="item-count" id="busuanzi_value_site_pv"></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2021-03-13T15:39:01.699Z"></div></div></div></div></div></div></div></main><footer id="footer" style="background-image: url(https://lksin.gitee.io/image/blog_index.jpg)"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2021 By LKsin</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.js"></script><script>var preloader = {
+  endLoading: () => {
+    document.body.style.overflow = 'auto';
+    document.getElementById('loading-box').classList.add("loaded")
+  },
+  initLoading: () => {
+    document.body.style.overflow = '';
+    document.getElementById('loading-box').classList.remove("loaded")
+
+  }
+}
+window.addEventListener('load',()=> {preloader.endLoading()})</script><div class="js-pjax"><script>function subtitleType () {
+  getScript('https://sdk.jinrishici.com/v2/browser/jinrishici.js').then(() => {
+    jinrishici.load(function (result) {
+      if (true) {
+        var sub = "Do what you like to do.".length == 0 ? new Array() : "Do what you like to do.".split(',')
+        var content = result.data.content
+        var both = sub.unshift(content)
+        var typed = new Typed('#subtitle', {
+          strings: sub,
+          startDelay: 300,
+          typeSpeed: 150,
+          loop: true,
+          backSpeed: 50,
+        })
+      } else {
+        document.getElementById('subtitle').innerHTML = result.data.content
+      }
+    })
+  })
+}
+
+if (true) {
+  if (typeof Typed === 'function') {
+    subtitleType()
+  } else {
+    getScript('https://cdn.jsdelivr.net/npm/typed.js/lib/typed.min.js').then(subtitleType)
+  }
+} else {
+  subtitleType()
+}
+</script><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div><script src="//lib.baomitu.com/jquery/3.4.1/jquery.min.js"></script><script src="https://myhkw.cn/player/js/player.js" id="myhk" key="160657162722" m="1"></script><canvas class="fireworks" mobile="true"></canvas><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/fireworks.min.js"></script><script defer="defer" id="ribbon" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/canvas-ribbon.min.js" size="150" alpha="0.6" zIndex="-1" mobile="true" data-click="true"></script><script>(function(){
+  const bp = document.createElement('script');
+  const curProtocol = window.location.protocol.split(':')[0];
+  if (curProtocol === 'https') {
+    bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+  }
+  else{
+    bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+  }
+  bp.dataset.pjax = ''
+  const s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(bp, s);
+})()</script></div></body></html>
